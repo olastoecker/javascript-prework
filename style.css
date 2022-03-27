@@ -1,0 +1,34 @@
+body {
+    background-color: rosybrown;
+}
+
+.splash {
+    background-image: url('https://i.postimg.cc/SNNWWPN9/Rock-Paper-web-1024.jpg');
+    text-align: center;
+    height: 70vh;
+    object-fit: cover;
+    background-position: 0% 0%;
+    background-size: cover;
+}
+
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color:darkslategray;
+}
+
+.description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:darkslategray;
+    text-align: center;
+}
+
+.description span {
+    font-style: oblique;
+    color: rgb(9, 41, 41);
+    font-weight: 700;
+}
+
+#buttons {
+    text-align: center;
+}
