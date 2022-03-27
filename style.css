@@ -1,5 +1,5 @@
 body {
-    background-color: rosybrown;
+    background-color:rgb(122, 82, 82);
 }
 
 .splash {
@@ -19,7 +19,7 @@ body {
 
 .description {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:darkslategray;
+    color:rgb(91, 129, 129);
     text-align: center;
 }
 
