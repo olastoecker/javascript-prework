@@ -1,4 +1,3 @@
-let argButtonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 function buttonClicked(argButtonName) {
   clearMessages();
@@ -14,15 +13,17 @@ displayResult(playerMove, computerMove);
 }
 // buttonTest = document.getElementById('button-test');
 // buttonTest.addEventListener('click', function(){ buttonClicked('Guzik TEST'); });
-buttonRock = document.getElementById('button-rock');
+
+let buttonRock = document.getElementById('button-rock');
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień'); });
-buttonPaper = document.getElementById('button-paper');
+
+let buttonPaper = document.getElementById('button-paper');
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier'); });
-buttonScissors = document.getElementById('button-scissors');
+
+let buttonScissors = document.getElementById('button-scissors');
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce'); });
 
 let argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber, x;
-
 
 function getMoveName(argMoveId) {
   console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
@@ -37,7 +38,6 @@ function getMoveName(argMoveId) {
     return 'kamień';
   }
 }
-
 
 function displayResult(argPlayerMove, argComputerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
